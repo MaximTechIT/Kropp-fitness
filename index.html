@@ -293,6 +293,247 @@
 
         </section>
 
+
+        <section class="calculate">
+
+            <div class="calculate-inner container">
+
+                <div class="calculator-body">
+                    <h2 class="calculate-title backdrop-title title-medium"
+                    data-title="BMI">
+
+                        Input your BMI
+
+                    </h2>
+
+                    <div class="calculate-description">
+
+                        <p>Duo graece ponderum ne, ei mel aliquando. Pro te tamquam nonumes, nam no nemore epicurei</p>
+
+                    </div>
+
+                    <form  class="calculate-form">
+
+                        <div class="calculate-form-body">
+
+                        <label for="height" class="visually-hidden">Height</label>
+                        <input type="text" class="calculate-input input " type="number" placeholder="Height / cm" id="height">
+
+                        <label for="weight" class="visually-hidden">Weight</label>
+                        <input type="text" class="calculate-input input " type="number" placeholder="Weight / kg" id="weight">
+
+                        <label for="age" class="visually-hidden">Age</label>
+                        <input type="text" class="calculate-input input " type="number" placeholder="Age" id="age">
+
+                        <label class="visually-hidden" for="gender"></label>
+                        <select class="calculate-input input" id="gender" required>
+                            <option value="" disabled selected>Gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+
+                        </select>
+
+                        <label class="visually-hidden" for="activity-factor"></label>
+                        <select class="calculate-input input wide" id="activity-factor" required>
+                            <option value="" disabled selected>Gender</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+
+                        </select>
+    
+                        
+
+                        </div>
+
+                        <button class="transparent button calculate-button" type="submit">Calculate</button>
+
+
+                        
+
+                        
+
+                    </form>
+
+                </div>
+
+                <div class="calculate-table-wrapper">
+                            <table class="calculate-table">
+
+                                <thead>
+                                    <tr>
+                                        <th>BMI</th>
+                                        <th>Weight status</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+
+                                    <tr>
+                                        <td>Below 18.5</td>
+                                        <td>Underweight</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>18.5 - 24.9</td>
+                                        <td>Healthy</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>25.0 - 29.9</td>
+                                        <td>Overweight</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>30.0 - and Above</td>
+                                        <td>Obese</td>
+                                    </tr>
+                                </tbody>
+
+                                <tfoot>
+                                    <tr>
+                                        <td colspan="2"><b>BMR</b>  Metabolic Rate / <b>BMI</b>  Body Mass Index</td>
+                                    </tr>
+                                </tfoot>
+
+                            </table>
+                        </div>
+
+            </div>
+
+
+        </section>
+
     </main>
+    <footer class="footer">
+
+        <div class="footer-main">
+
+            <div class="footer-main-inner container">
+
+                <header class="footer-header">
+                    <a href="/" class="footer-logo">
+                        <img src="./images/logo.png" alt="Kropp Logo" height="50" width="270" loading="lazy">
+                    </a>
+
+                    <p class="footer-description section-description">please feel free to send us an e-mail at <a href="mailto:kropp@qodeinteractive.com">kropp@qodeinteractive.com</a> For any additional inquiries</p>
+                </header>
+
+                <div class="footer-body">
+
+                    <div class="footer-column">
+                        <h2 class="footer-column-title">About</h2>
+                        <p class="footer-about">
+                            Shape up your site with Kropp,a theme especially made for
+                            fitness & gym websites.
+                            
+                        </p>
+                    </div>
+
+                    <div class="footer-column">
+                        <h2 class="footer-column-title">Working Hours</h2>  
+
+                        <div class="footer-schedule">
+                            Monday - Friday <br/>
+                            <time datetime="05:30/24:00">05:30 - 24:00</time>
+                        </div>
+
+                        <div class="footer-schedule">
+                            Weekdays <br/>
+                            <time datetime="00:00/24:00">00:00 - 24:00</time>
+                        </div>
+                    </div>
+
+                    <div class="footer-column">
+                        <h2 class="footer-column-title">Location</h2>
+                        <address class="footer-address">
+                            68 Jay Street, Brooklyn,<br>
+                            NY 11201, United States
+                        </address>
+
+                        <div class="footer-contacts">
+                            <ul class="footer-contacts-list">
+                                <li class="footer-contacts-item">
+                                    <a href="mailto:kropp@qodeinteractive.com" class="footer-contacts-link">kropp@qodeinteractive.com</a>
+                                </li>
+
+                                <li class="footer-contacts-item">
+                                    <a href="tel:+17184076400" class="footer-contacts-link">+ (1) 718 - 407 - 6400</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="footer-column">
+                        <h2 class="footer-column-title has-arrow" >Start now</h2>
+                        <form class="footer-subscribe">
+                            <label class="visually-hidden" for="subscribe-email" id="subscribe-email"></label>
+                            <input id="subscribe-email" type="email" class="footer-subscribe-input input"  placeholder="Email" id="footer-name">
+
+
+                            <button class="footer-subscribe-button" title="Subscribe" type="submit">
+
+                                <span class="visually-hidden">Subscribe</span>
+
+                            </button>
+                        </form>
+
+                        <div class="footer-soc1als">
+
+                            <ul class="footer-soc1als-list">
+                                <li class="footer-soc1als-item">
+                                    <a href="/" class="footer-soc1als-link">
+                                        <img src="./icons/tiktok.svg" alt="">
+                                    </a>
+                                </li>
+
+                                <li class="footer-soc1als-item">
+                                    <a href="/" class="footer-soc1als-link">
+                                        <img src="./icons/youtube.svg" alt="">
+                                    </a>
+                                </li>
+
+                                <li class="footer-soc1als-item">
+                                    <a href="/" class="footer-soc1als-link">
+                                        <img src="./icons/instagram.svg" alt="">
+                                    </a>
+                                </li>
+
+                                <li class="footer-soc1als-item">
+                                    <a href="/" class="footer-soc1als-link">
+                                        <img src="./icons/facebook.svg" alt="">
+                                    </a>
+                                </li>
+
+                                <li class="footer-soc1als-item">
+                                    <a href="/" class="footer-soc1als-link">
+                                        <img src="./icons/twitter.svg" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="footer-extra">
+
+            <div class="footer-extra-inner container">
+
+                <div class="footer-copyrate">
+                        © <time datetime="2022">2022</time> Qode Interactive, All Rights Reserved | <a href="">Privacy Policy</a> | <a href="">Contact Us</a>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </footer>
 </body>
 </html>
